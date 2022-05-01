@@ -43,6 +43,7 @@ body {
 .btn-outline-success {
   border-color: #000;
 }
+/* INDEX */
 /* MAIN */
 /* SECCIÓN 1 */
 #main__welcome {
@@ -214,4 +215,8 @@ body {
   font-weight: 600;
   text-align: center;
   margin: 0;
+}
+/* ACERCA DE */
+img {
+  display: none;
 }
