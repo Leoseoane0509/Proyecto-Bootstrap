@@ -298,24 +298,22 @@ img {
 }
 /* SECCIÓN 3 */
 #main2__certs {
-  background-color: #ebebeb;
   height: 50rem;
-  color: #fff;
   display: flex;
   flex-direction: column;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
+  background-color: #ebebeb;
 }
 #main2__certs h2 {
   text-transform: uppercase;
+  padding-top: 2rem;
+}
+.certs2__links ul li {
   padding: 2rem;
-  font-size: 2em;
-  color: #000;
+  font-weight: 600;
 }
-
-.certs2__links li a {
-  color: #000;
-}
-.certs2__links li a:hover {
+.certs2__links ul li a:hover {
   color: lightseagreen;
 }
