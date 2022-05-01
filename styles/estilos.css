@@ -290,6 +290,12 @@ img {
 .skill__link a {
   font-weight: 600;
 }
+.skill .btn {
+  background-color: lightseagreen;
+}
+.skill .btn a {
+  color: #fff;
+}
 /* SECCIÓN 3 */
 #main2__certs {
   background-color: #ebebeb;
