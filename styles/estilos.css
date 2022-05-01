@@ -1,0 +1,217 @@
+/* CSS GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* NAVBAR */
+.bg-color {
+  background-color: lightseagreen;
+}
+.navbar-brand {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #000;
+}
+.nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.navbar-toggler {
+  background-color: white;
+}
+/* Input */
+::placeholder {
+  color: #000;
+}
+/* Button */
+.btn {
+  color: #000;
+  font-weight: 600;
+  background-color: #fff;
+}
+.btn:hover {
+  background-color: rgb(49, 226, 217);
+}
+.btn-outline-success {
+  border-color: #000;
+}
+/* MAIN */
+/* SECCIÓN 1 */
+#main__welcome {
+  height: 25rem;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#main__welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container__heading h2 {
+  font-size: 2em;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/* SECCIÓN 2 */
+.me__img img {
+  display: none;
+}
+#main__me {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.me__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+.me__text h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #000;
+}
+.me__text p {
+  text-align: center;
+  color: #000;
+  line-height: 2rem;
+}
+/* SECCIÓN 3 */
+#main__reviews {
+  background-color: #ebebeb;
+}
+#main__reviews h2 {
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #000;
+}
+.reviews__container {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+.review {
+  margin: 1rem;
+}
+.review p {
+  line-height: 2rem;
+  font-style: italic;
+}
+.stars {
+  color: gold;
+  font-weight: 600;
+}
+/* SECCIÓN 4 */
+#main__characteristics {
+  height: 30rem;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main__characteristics ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main__characteristics ul li {
+  color: #fff;
+  list-style-type: none;
+  padding: 2.5rem;
+  font-size: 1.2em;
+}
+/* FOOTER */
+#footer {
+  background-color: lightseagreen;
+}
+#footer a {
+  display: none;
+}
+#footer p {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
