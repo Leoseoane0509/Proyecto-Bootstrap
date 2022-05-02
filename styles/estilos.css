@@ -333,7 +333,7 @@ img {
     #434343,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 130rem;
+  height: 150rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -351,9 +351,18 @@ img {
 .service {
   padding: 1rem;
 }
-.services__link a {
+.service__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service__link a {
   font-weight: 600;
 }
-.services__link a:hover {
-  color: lightseagreen;
+.service__link a:hover {
+  color: #000;
+}
+.btn a {
+  color: #fff;
 }
