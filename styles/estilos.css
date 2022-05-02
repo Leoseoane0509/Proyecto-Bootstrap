@@ -10,6 +10,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 li {
   list-style: none;
 }
@@ -315,5 +318,42 @@ img {
   font-weight: 600;
 }
 .certs2__links ul li a:hover {
+  color: lightseagreen;
+}
+/* SERVICIOS */
+#main3__services {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 130rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main3__services h2 {
+  color: #fff;
+  padding: 2rem;
+  font-size: 2em;
+}
+.services__text {
+  color: #fff;
+  line-height: 2rem;
+}
+.service {
+  padding: 1rem;
+}
+.services__link a {
+  font-weight: 600;
+}
+.services__link a:hover {
   color: lightseagreen;
 }
